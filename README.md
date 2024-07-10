@@ -17,7 +17,6 @@ The project is in a stable state, with all core functionalities implemented and 
 The project follows the PEP 8 style guide for Python code, ensuring consistency and readability.
 
 
-
 ## Tech/Framework Used
 - Python 3.7+
 - Plex API
