@@ -1,0 +1,19 @@
+plex:
+  url: '<SET PLEX URL>'  # URL of the Plex server
+  token: '<SET YOUR PLEX_TOKEN>'   # Authentication token for the Plex server
+
+media:
+  base_dir: '<SET PATH TO PLEX MEDIA FILES>'  # Base directory for media files
+
+database:
+  path: 'path/to/your/database.db'  # Path to the database file
+
+default_date: '06/25'  # Default date format for metadata
+lock_file: 'meta.lock'  # Lock file to prevent concurrent executions
+num_threads: 4  # Number of threads for parallel processing
+batch_size: 10  # Number of updates to commit at once
+
+logging:
+  filename: 'update_movie_metadata.log'  # Log file name
+  level: 'INFO'  # Available levels: DEBUG, INFO, WARNING, ERROR, CRITICAL
+  format: '%(asctime)s - %(levelname)s - %(message)s'  # Log message format
